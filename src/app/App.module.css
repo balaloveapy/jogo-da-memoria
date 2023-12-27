@@ -1,0 +1,48 @@
+
+.pai{
+    margin: 10px auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    padding: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns:repeat(4,129px);
+    gap: 20px;
+}
+.nome{
+    background-color:#e2e4e3;
+    border-radius: 10px;
+}
+.cor{
+    color:#181a3f;
+    font-weight: bolder;
+    font-size: 32px;
+}
+.colorido{
+    border-radius: 20px;
+    padding: 8px 20px;
+    background-color: #1550ff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+
+}
+.toma{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sinza{
+    background-color: #e2e3e4;
+    border-radius: 10px;
+}
+.img{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
